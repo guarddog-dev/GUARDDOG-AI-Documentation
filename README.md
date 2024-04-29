@@ -13,7 +13,7 @@ https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/wiki
 ## Requirements:
 1. **Port Mirroring.** This is a key configuration that is needed to allow us to have the visibility needed to provide the assessments and protection desired.
 2. **Network configuration.** The container needs to be deployed on a network that is configured to allow traffic to and from the container out to the internet.
-3. **Firewall configuration.** Refer to the [firewall_ports](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/Firewall%20Portsv2.pdf) document for the list of ports allowed through the firewall.
+3. **Firewall configuration.** Refer to the [firewall_ports](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/Firewall%20Ports-v3.pdf) document for the list of ports allowed through the firewall.
 4. **Docker.** At least Docker version 23.x must be installed on the system where the container is to be deployed.
 5. **License.** Every container uses a unique, non-transferrable license that is to be requested by contacting us. Follow the process below.
 6. **Host network interfaces:** The container is prepared to work with the network interfaces presented to the host. Have those configured with IP, Subnet, Gateway, VLAN, and DNS before running the container.
@@ -23,7 +23,7 @@ https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/wiki
 ## Index:
 1. **Requirements Guide.** Refer to the [requirements_doc](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/GuardDog%20Fido%20Installation%20%26%20Configuration%20Requirements.pdf) This document goes over the initial steps on how to use the platform.
 2. **Manual.** The [manual](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/Protective%20Cloud%20Services%20v3%20-%20StepbyStep%20-%2020231010.pdf) is a more in-depth document explaining the multiple modules and settings of the dashboard.
-3. **Firewall Document.** This [firewall_ports](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/Firewall%20Portsv2.pdf) document shows the communication that needs to be allowed through in the firewall in order for the container to be fully operational.
+3. **Firewall Document.** This [firewall_ports](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/Firewall%20Ports-v3.pdf) document shows the communication that needs to be allowed through in the firewall in order for the container to be fully operational.
 4. **RHEL Deployment Guide.** This [deployment guide](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/GuardDog%20AI%20Container%20Deployment%20Guide%20-%20RHEL%20(1).pdf) shows the simple steps needed to deploy the container on a supported RHEL system.
 
 ## Licensing and Deployment Summary:
