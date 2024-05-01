@@ -20,6 +20,7 @@ https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/wiki
 7. **Host network interfaces:** The container is prepared to work with the network interfaces presented to the host. Have those configured with IP, Subnet, Gateway, VLAN, and DNS before running the container.
 8. **Container runs with host networking access** to be able to be completely functional. It will detect all ethernet interfaces and add them to the internal network configuration within the container.
 9. **Container runs in privilege mode** to be able to perform the functions it is designed for.
+10. **Container resources** The container is designed to be deployed on a standalone machine as a single deployment. This way the container will utilize all the resources available from the host machine.
 
 ## Index:
 1. **Requirements Guide.** Refer to the [requirements_doc](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/GuardDog%20Fido%20Installation%20%26%20Configuration%20Requirements.pdf) This document goes over the initial steps on how to use the platform.
