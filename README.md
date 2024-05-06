@@ -4,11 +4,11 @@
 
 [Website](https://guarddog.ai) •
 [Wiki](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/wiki) •
-[Supported OS](supported_operating-systems) •
-[Requirements](requirements) •
-[Index](index) •
-[Request a license](requesting-a-license-and-deployment-summary) •
-[Deployment](requesting-a-license-and-deployment-summary)
+[Supported OS](#supported-operating-systems) •
+[Requirements](#requirements) •
+[Index](#indexindex) •
+[Request a license](#requesting-a-license-and-deployment-summary) •
+[Deployment](#requesting-a-license-and-deployment-summary)
 
 </div>
 
