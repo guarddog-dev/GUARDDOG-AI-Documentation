@@ -6,7 +6,7 @@
 [Wiki](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/wiki) •
 [Supported OS](#supported-operating-systems) •
 [Requirements](#requirements) •
-[Index](#indexindex) •
+[Index](#index) •
 [Request a license](#requesting-a-license-and-deployment-summary) •
 [Deployment](#requesting-a-license-and-deployment-summary)
 
