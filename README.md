@@ -44,6 +44,7 @@ Refer to the wiki [here](https://github.com/guarddog-dev/GUARDDOG-AI-Documentati
 ## Requesting a License and Deployment Summary
 1. Create an account at https://fido.guarddog.ai
 2. Contact us at support@guarddog.ai to request a license with the following information:
+    - Subject: Container License Request for [enter the email address the request is for]    
     - Customer company name:  
     - Main customer name: 
     - Number of customer email accounts: 
