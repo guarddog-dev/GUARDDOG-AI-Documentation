@@ -39,7 +39,7 @@ Refer to the wiki [here](https://github.com/guarddog-dev/GUARDDOG-AI-Documentati
 1. **Requirements Guide** Refer to the [requirements_doc](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/GuardDog%20Fido%20Installation%20%26%20Configuration%20Requirements.pdf) This document goes over the initial steps on how to use the platform.
 2. **Manual.** The [manual](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/Protective%20Cloud%20Services%20v3%20-%20StepbyStep%20-%2020231010.pdf) is a more in-depth document explaining the multiple modules and settings of the dashboard.
 3. **Firewall Document** This [firewall_ports](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/Firewall%20Ports-v3.pdf) document shows the communication that needs to be allowed through in the firewall in order for the container to be fully operational.
-4. **RHEL Deployment Guide** This [deployment guide](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/GuardDog%20AI%20Container%20Deployment%20Guide%20-%20RHEL%20(1).pdf) shows the simple steps needed to deploy the container on a supported RHEL system.
+4. **RHEL Deployment Guide** This [deployment guide](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/GuardDog%20AI%20Container%20Deployment%20Guide%20-%20RHEL%20version.pdf) shows the simple steps needed to deploy the container on a supported RHEL system.
 
 ## Requesting a License and Deployment Summary
 1. Create an account at https://fido.guarddog.ai
