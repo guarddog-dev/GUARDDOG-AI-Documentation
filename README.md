@@ -1,22 +1,5 @@
-<style>
-/* Display dark logo for a light theme */
-@media (prefers-color-scheme: light) {
-    .dark-logo {
-        display: none;
-    }
-}
-
-/* Display light logo for a dark theme */
-@media (prefers-color-scheme: dark) {
-    .light-logo {
-        display: none;
-    }
-}
-</style>
-
 <div style="text-align: center;">
-    <img src="https://dcx.guarddog.ai/guarddog-secondary.svg" alt="Light Logo" class="light-logo" width="300"/>
-    <img src="https://guarddog.ai/wp-content/uploads/2024/03/purple-logo.png" alt="Dark Logo" class="dark-logo" width="300"/>
+    <img src="https://guarddog.ai/wp-content/uploads/2024/03/purple-logo.png" alt="alt text" width="300"/>
 </div>
 
 <h1 align="center">GUARDDOG AI Documentation</h1>
