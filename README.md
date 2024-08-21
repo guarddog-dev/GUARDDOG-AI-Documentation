@@ -1,6 +1,7 @@
-<div style="text-align: center;">
-    <img src="https://guarddog.ai/wp-content/uploads/2024/03/purple-logo.png" alt="alt text" width="300"/>
-</div>
+<p align="center">
+    <img src="https://guarddog.ai/wp-content/uploads/2024/03/purple-logo.png" alt="gdai_logo" width="300"/>
+</p>
+
 
 <h1 align="center">GUARDDOG AI Documentation</h1>
 
