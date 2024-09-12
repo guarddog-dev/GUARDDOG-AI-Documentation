@@ -1,3 +1,5 @@
+# <div style="background-color: #3C434B; padding: 20px;">
+
 <p align="center">
     <img src="https://guarddog.ai/wp-content/uploads/2024/03/purple-logo.png" alt="gdai_logo" width="300"/>
 </p>
@@ -78,10 +80,19 @@ Refer to the wiki [here](https://github.com/guarddog-dev/GUARDDOG-AI-Documentati
    2. >```docker run -it --cap-add NET_ADMIN --net=host --privileged --restart always -v /etc/guarddog:/etc/guarddog --name gdai guarddogai/prod:latest <DEVICE_NAME> <USER_EMAIL> <LICENSE_KEY>```
       1. <DEVICE_NAME>, indicates a friendly name for the container. 
       2. <USER_EMAIL>, this is the email address used to create the account at https://dcx.guarddog.ai.
-      3. <LICENSE_KEY>, this is the license key that will be provided by GuardDog AI for each container to be deployed. 
+      3. <LICENSE_KEY>, this is the license key that will be provided by GUARDDOG AI for each container to be deployed. 
 
 7. Once the container is running, and given all the requirements have been met, please allow for 1h - 2h for the container to fully update. 
 
 8. Once done it will automatically start learning and assessing the network to discover digital assets.
 
 9. Once those digital assets are identified then it will automatically proceed to identify vulnerabilities.
+
+
+
+
+
+
+
+
+</div>
