@@ -11,7 +11,7 @@
 
 [Website](https://guarddog.ai) •
 [Web Application](https://dcx.guarddog.ai) •
-[Wiki](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/wiki) •
+[Community](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/wiki) •
 [Supported OS](#supported-operating-systems) •
 [Requirements](#requirements) •
 [Index](#index) •
@@ -35,7 +35,7 @@ Refer to the wiki [here](https://github.com/guarddog-dev/GUARDDOG-AI-Documentati
 1. **System Requirements** Minimum: 4CPU/4GB/40GB; Recommended: 4CPU/8GB/64GB.
 2. **Port Mirroring.** This is a key configuration that is needed to allow us to have the visibility needed to provide the assessments and protection desired.
 3. **Network configuration.** The container needs to be deployed on a network that is configured to allow traffic to and from the container out to the internet.
-4. **Firewall configuration.** Refer to the [firewall_ports](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/Firewall%20Ports-v3.pdf) document for the list of ports allowed through the firewall.
+4. **Firewall configuration.** Refer to the [firewall_ports](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/GDAI) document for the list of ports allowed through the firewall.
 5. **Docker.** At least Docker version 23.x must be installed on the system where the container is to be deployed.
 6. **License.** Every container uses a unique, non-transferrable license that is to be requested by contacting us. Follow the process below.
 7. **Host network interfaces:** The container is prepared to work with the network interfaces presented to the host. Have those configured with IP, Subnet, Gateway, VLAN, and DNS before running the container.
