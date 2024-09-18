@@ -1,0 +1,39 @@
+name: Sync Wiki
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'Community/wiki/**'
+
+jobs:
+  update-wiki:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+
+      - name: Checkout Wiki
+        uses: actions/checkout@v3
+        with:
+          repository: ${{ github.repository }}.wiki
+          path: wiki
+          token: ${{ secrets.WIKI_SYNC }}
+
+      - name: Copy Docs to Wiki
+        run: |
+          rsync -av --exclude='.git' Community/wiki/ wiki/  # Adjust paths as necessary
+          cd wiki
+          git add --all
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+          git config user.name "${{ github.actor }}"
+          if git commit -m "Automated sync from main repository"; then
+            echo "Changes committed."
+            git push
+          else
+            echo "No changes to commit."
+          fi
