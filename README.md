@@ -1,4 +1,4 @@
-# <div style="background-color: #3C434B; padding: 20px;">
+<!-- <div style="background-color: #3C434B; padding: 20px;"> -->
 
 <p align="center">
     <img src="https://guarddog.ai/wp-content/uploads/2024/03/purple-logo.png" alt="gdai_logo" width="300"/>
@@ -11,7 +11,7 @@
 
 [Website](https://guarddog.ai) •
 [Web Application](https://dcx.guarddog.ai) •
-[Wiki](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/wiki) •
+[Community](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/wiki) •
 [Supported OS](#supported-operating-systems) •
 [Requirements](#requirements) •
 [Index](#index) •
@@ -25,13 +25,13 @@ This is a public repository with the documentation pertaining to the installatio
 Refer to the wiki [here](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/wiki) for more information.
 
 
-## Supported Operating Systems
+## **Supported Operating Systems**
 - RedHat Enterprise Linux 8.8
 - RedHat Enterprise Linux 8.9
 - RedHat Enterprise Linux 9.2
 - RedHat Enterprise Linux 9.3
 
-## Requirements
+## **Requirements**
 1. **Container Compute Requirements:** Minimum -> 4CPU/4GB/40GB; Recommended -> 4CPU/8GB/64GB.
 2. **Architecture** x86/x64
 3. **Port Mirroring** This is a key configuration needed to allow the container to have the required visibility to provide the assessments and protection desired. Port mirroring needs to be enabled both ways (ingress **and** egress).
@@ -45,13 +45,13 @@ Refer to the wiki [here](https://github.com/guarddog-dev/GUARDDOG-AI-Documentati
 11. **Container runs in privilege mode** to be able to perform the functions it is designed for.
 12. **Container resources** The container is designed to be deployed on a standalone machine as a single deployment. This way the container will utilize all the resources available from the host machine.
 
-## Index
+## **Index**
 1. **Requirements Guide** Refer to the [requirements_doc](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/GDAI%20Container%20Installation%20and%20Configuration%20Requirements.pdf) This document goes over the initial steps on how to use the platform.
 2. **Manual.** The [manual](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/Protective%20Cloud%20Services%20v3%20-%20StepbyStep%20-%2020231010.pdf) is a more in-depth document explaining the multiple modules and settings of the dashboard.
 3. **Firewall Document** This [firewall_rules](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/GDAI%20Configuration%20for%20Firewall%20Rules.pdf) document shows the communication that needs to be allowed through in the firewall in order for the container to be fully operational.
 4. **RHEL Deployment Guide** This [deployment guide](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/GuardDog%20AI%20Container%20Deployment%20Guide%20-%20RHEL%20version.pdf) shows the simple steps needed to deploy the container on a supported RHEL system.
 
-## Requesting a License and Deployment Summary
+## **Requesting a License and Deployment Summary**
 1. Create an account at https://dcx.guarddog.ai
 
 2. Contact us at support@guarddog.ai to request a license with the following information:
@@ -87,12 +87,5 @@ Refer to the wiki [here](https://github.com/guarddog-dev/GUARDDOG-AI-Documentati
 8. Once done it will automatically start learning and assessing the network to discover digital assets.
 
 9. Once those digital assets are identified then it will automatically proceed to identify vulnerabilities.
-
-
-
-
-
-
-
 
 </div>
