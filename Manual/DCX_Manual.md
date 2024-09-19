@@ -73,7 +73,7 @@ Minimum password requirements:
 If it is the first time you are accessing this portal, then you would need to create an account. Click on Sign Up to create the account and then just follow the steps on the screen.
 
 
-![Alt Text](images/signin.gif)
+![Alt Text](images/SignIn.gif)
 
 
 ---
@@ -83,7 +83,7 @@ If it is the first time you are accessing this portal, then you would need to cr
 This is the landing page where a summary of the events and status of containers and assets are displayed:
 
 
-![Alt Text](images/summary.gif)
+![Alt Text](images/Summary.gif)
 
 
 ## Main Menu
@@ -97,7 +97,7 @@ The main menu is located on the left side of the screen. The menu items shown ma
 
 This page shows a more advanced view of what you saw in Summary. It hows the overall information for the entire system including data from all containers registered in the system. Depending on the size and resolution of the screen it may fully show the menu on the left hand side of the screen or show a reduced menu, known as the “hamburger menu icon”. You can display the menu by clicking on it.
 
-![Alt Text](images/analytics.gif)
+![Alt Text](images/Analytics.gif)
 
 
 
@@ -259,20 +259,20 @@ Clicking on the avatar shows options to:
    1. Choose this option to change the password on the account
 3. Sign out
 
-![Alt Text](images/avatar.gif)
+![Alt Text](images/Avatar.gif)
 
 ### Notifications Icon
 Click the bell icon to view:
 - Latest notifications
 
 
-![Alt Text](images/notification_bell.gif)
+![Alt Text](images/Notification_bell.gif)
 
 ---
 
 ## Containers
 
-![Alt Text](images/containers.gif)
+![Alt Text](images/Containers.gif)
 
 
 ### Add Containers
