@@ -10,14 +10,14 @@ Version 1
 4. [Summary Page](#summary-page)
 5. [Analytics](#analytics)
 6. [Containers](#containers)
-7. [Networks](#networks) TBD
-8. [Historical](#historical) TBD
-9. [Settings](#settings) TBD
-10. [Support](#support) TBD
+7. [Networks](#networks)
+8. [Historical](#historical)
+9. [Settings](#settings)
+10. [Support](#support)
 11. [Isolation](#isolation) TBD
 12. [Grouping](#grouping) TBD
-13. [How Do I...](#how-do-i) TBD
-14. [Steps](#steps) TBD
+13. [How Do I...](#how-do-i)
+14. [Steps](#steps)
 
 ---
 
@@ -321,11 +321,6 @@ Click the bell icon to view:
 
 ## Containers
 
-![Alt Text](images/Containers.gif)
-
----
-
-
 ### Containers Card
 
 This is the main card for the contianer deployed and registered in the system. There are multiple places to look at here:
@@ -368,7 +363,7 @@ Container registration:
 3. Option to bulk upload contianers using a provided template.
 
 
-![Alt Text](images/Containers.gif)
+![Alt Text](images/containers_add.gif)
 
 ---
 
@@ -435,6 +430,136 @@ There are multiple items on this page, let’s go through all of them:
 
 
 ![Alt Text](images/container_details.gif)
+
+
+---
+
+
+## Networks
+
+### Networks Page
+This page consolidates data from all units in the system. It includes:
+1. Local Networks: Digital assets on the networks with containers marked as local.
+2. Remote Networks: Digital assets on the networks with containers marked as remote.
+3. Wireless Networks: Surrounding wireless networks detected.
+
+
+![Alt Text](images/Networks.gif)
+
+---
+
+## Historical
+
+### Global Historical Page
+This page presents historical data on vulnerabilities and attacks detected in the system.
+
+![Alt Text](images/Historical.gif)
+
+### Historical Vulnerabilities and Attacks Graph
+This card shows a graphical representation of vulnerabilities and attacks over time.
+
+### Timeframe Selector
+Select the desired timeframe to view historical data.
+
+![Alt Text](images/historical_graph.gif)
+
+### Historical Attacks Card
+This card displays historical data on attacks detected by the system.
+
+![Alt Text](images/historical_attacks_card.gif)
+
+### Historical Scans Card
+This card shows historical scan data.
+
+![Alt Text](images/historical_scans_card.gif)
+
+### Historical Networks Card
+This card shows historical data on networks detected by all containers.
+
+![Alt Text](images/historical_networks_card.gif)
+
+### Historical Wireless Card
+This card shows historical data on networks detected by all containers.
+
+![Alt Text](images/historical_wireless_card.gif)
+
+---
+
+## Settings
+
+### Preferences
+In the **Settings > Preferences** section, you can configure the system to send email reports at specific intervals.
+
+![Alt Text](images/Settings.gif)
+
+#### Modules
+In the **Preferences > Modules** section, you can configure the time interval for data displayed in the portal. By default, data from the last week is shown, but other timeframes can be selected.
+
+![Alt Text](images/settings_modules.gif)
+
+#### Notifications
+In the **Preferences > Notifications** section, you can view notifications received by the system.
+
+![Alt Text](images/settings_notifications.gif)
+
+#### Licensing
+In the **Preferences > Licensing** section, you can view all licenses you purchased and that are assigned to your account.
+
+![Alt Text](images/settings_licensing.gif)
+
+---
+
+## Support
+
+### Support Page
+To contact support, go to the **Support** page and click on "Open a support ticket".
+
+### Support Form
+Fill out the form with detailed information about the incident and submit the ticket.
+
+![Alt Text](images/Support.gif)
+
+---
+
+## How Do I...
+
+### Create an account?
+1. Go to [https://dcx.guarddog.ai](https://dcx.guarddog.ai) and click on **Sign Up**.
+
+### Choose a secure password?
+1. Follow the password guidelines provided during the account creation process. Use at least 20 characters for better security.
+
+### Log in to the portal?
+1. Go to [https://dcx.guarddog.ai](https://dcx.guarddog.ai) and enter your account credentials.
+
+### Register my DCX Edge Sensor?
+1. Go to **Containers > Add Containers** and enter the serial number and PIN. You can also scan the QR code on the unit’s label.
+
+### Protect my local network devices?
+1. By default, all discoverable devices on the local network are protected. You can manually protect or unprotect devices as needed.
+
+### Protect a wireless network?
+1. Go to **Networks > Wireless Networks > Identified Networks** and select the network you want to protect.
+
+### Change the time interval for data display?
+1. Go to **Settings > Preferences > Modules** and select the desired time interval.
+
+---
+
+## Steps
+
+Follow these steps to launch attacks and detect them with a DCX Edge Sensor:
+
+1. Obtain a license to deploy a DCX Edge Sensor container.
+2. Register for an account at [https://dcx.guarddog.ai](https://dcx.guarddog.ai).
+3. Login with your credentials.
+4. Ensure the host where you deploy the containers has access to the local network and the internet.
+5. Deploy the container and allow time for updates to complete.
+6. Rregistration of the deployed container occurs automatically.
+7. Once operational, the container will display three green status icons.
+8. Ensure the container is functional by viewing network data.
+9. If available, protect your wireless network by going to **Networks > Wireless Networks**.
+10. We recommend filling out all the information in your profile to complete the task.
 
 
 ---
