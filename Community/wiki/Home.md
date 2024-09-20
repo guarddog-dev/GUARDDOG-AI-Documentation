@@ -45,7 +45,7 @@ Here are the main sections:
 
 Whether you're a developer, security researcher, or enthusiast, there's a place for you in the GUARDDOG AI Community.
 
-- **[Read the Documentation](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/manual/dcx_manual.md)**: Learn how to use GuardDog AI effectively.
+- **[Read the Documentation](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/Manual/DCX_Manual.md)**: Learn how to use GuardDog AI effectively.
 - **[Download the Latest Release](https://github.com/guarddog-dev/guarddog-ai-documentation/releases)**: Get the most recent version of GUARDDOG AI DCX Edge Sensor.
 
 
@@ -66,7 +66,7 @@ Our community is dedicated to providing a welcoming and supportive environment f
 
 ## 📚 Resources
 
-- **[Documentation](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/manual/dcx_manual.md)**: Comprehensive guides and API references.
+- **[Documentation](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/Manual/DCX_Manual.md)**: Comprehensive guides and API references.
 - **[FAQs](FAQs.md)**: Answers to common questions.
 
 ## 🛡️ Security
