@@ -177,10 +177,10 @@ This page shows a more advanced view of what you saw in Summary. It hows the ove
 ### The Containers card 
 
 The first card we show is the Containers card. An arrow shows when there are containers to let you go to the Containers page.
-1.	This shows the total number of containers registered in the system
-2.	The number of containers that are offline and online. This refers to the containers that are communicating or not with the main system in the Cloud. Once we do not see the container connected then we will show that container as offline.
-3.	We also show our proprietary simple security score. The Security Score is a graphical representation of the risk and vulnerability of your network and the assets in it. Today the simple score is based on the containers you have, the vulnerabilities found and then severity level of those vulnerabilities.
-4.	There is also the notion of Local and Remote network/containers. Please refer to the Terminology section for more information on this categorization. 
+1. This shows the total number of containers registered in the system
+2. The number of containers that are offline and online. This refers to the containers that are communicating or not with the main system in the Cloud. Once we do not see the container connected then we will show that container as offline.
+3. We also show our proprietary simple security score. The Security Score is a graphical representation of the risk and vulnerability of your network and the assets in it. Today the simple score is based on the containers you have, the vulnerabilities found and then severity level of those vulnerabilities.
+4. There is also the notion of Local and Remote network/containers. Please refer to the Terminology section for more information on this categorization. 
 
 
 ![Alt Text](images/analytics_containers_card.gif)
@@ -189,10 +189,10 @@ The first card we show is the Containers card. An arrow shows when there are con
 ### The Attacks card
 
 This shows if there have been any attacks so far on your network within the time interval chosen for the module, please refer to the Settings section for more information on this.
-1.	Total number of attacks
-2.	The amount of time it took to contain all the attacks
-3.	The amount of time that it took to detect the attacks
-4.	Click on the arrow to open the attacks page
+1. Total number of attacks
+2. The amount of time it took to contain all the attacks
+3. The amount of time that it took to detect the attacks
+4. Click on the arrow to open the attacks page
 
 
 ![Alt Text](images/analytics_attacks_card.gif)
@@ -223,11 +223,11 @@ This page shows all the attacks detected by all containers in the system. Here i
 ## The Vulnerabilities card
 
 This shows the overall vulnerabilities information on the network where the containers are deployed. Please refer to the Terminology section for more information.
-1.	Arrow to open the threats page.
-2.	Local score. The severity level of all local containers
-3.	Remote score. The severity vulnerability level of all remote containers.
-4.	Number of local threats. Total number of threats found by local containers.
-5.	Number of remote threats. Total number of threats found by remote containers.
+1. Arrow to open the threats page.
+2. Local score. The severity level of all local containers
+3. Remote score. The severity vulnerability level of all remote containers.
+4. Number of local threats. Total number of threats found by local containers.
+5. Number of remote threats. Total number of threats found by remote containers.
 
 ![Alt Text](images/analytics_vulnerabilities_card.gif)
 
@@ -259,11 +259,11 @@ This card shows the information about a specific threat found on a device connec
 ### The networks card. 
 
 This shows information from the different networks detected by all containers, local and remote, registered in the system. Depending on the configuration of the network this will show all devices connected to the network whether they are wired or wireless. Wireless in this card refers to wireless networks found by all the units. For a definition on how local and remote units are classified please refer to the Terminology section.
-1.	Arrow to open the networks page. The networks page. This takes to same page the Network menu item does. You can get more details by going to the Networks menu option.
-2.	Local. These shown here are all network devices found by local containers.
-3.	Remote. These represent the total number of connected devices found by remote containers.
-4.	Local wireless. These are the wireless networks, and surrounding wireless devices transmitting, found by local containers.
-5.	Remote wireless. These are the wireless networks, and surrounding wireless devices transmitting, found by remote containers.
+1. Arrow to open the networks page. The networks page. This takes to same page the Network menu item does. You can get more details by going to the Networks menu option.
+2. Local. These shown here are all network devices found by local containers.
+3. Remote. These represent the total number of connected devices found by remote containers.
+4. Local wireless. These are the wireless networks, and surrounding wireless devices transmitting, found by local containers.
+5. Remote wireless. These are the wireless networks, and surrounding wireless devices transmitting, found by remote containers.
 
 
 ![Alt Text](images/analytics_networks_card.gif)
