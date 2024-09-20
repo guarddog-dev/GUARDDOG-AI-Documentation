@@ -434,7 +434,7 @@ There are multiple items on this page, let’s go through all of them:
     5.  Remote wireless. These are the wireless networks, and surrounding wireless devices transmitting, found by remote containers.
 
 
-![Alt Text](images/containers_details.gif)
+![Alt Text](images/container_details.gif)
 
 
 ---
