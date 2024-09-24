@@ -1,4 +1,10 @@
-# Contributing to the GUARDDOG AI Community
+<p align="center">
+    <img src="https://guarddog.ai/wp-content/uploads/2024/03/purple-logo.png" alt="gdai_logo" width="300"/>
+</p>
+
+<h1 align="center">Contributing to the GUARDDOG AI Community</h1>
+
+
 
 Thank you for considering contributing to GUARDDOG AI Community! We welcome contributions of all kinds.
 

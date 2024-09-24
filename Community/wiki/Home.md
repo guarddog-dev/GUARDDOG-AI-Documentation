@@ -68,6 +68,7 @@ Our community is dedicated to providing a welcoming and supportive environment f
 
 - **[Documentation](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/Manual/DCX_Manual.md)**: Comprehensive guides and API references.
 - **[FAQs](FAQs.md)**: Answers to common questions.
+- **[Walkthroughs](Walkthroughs.md)**: List of walkthroughs with the steps on how to deploy our technology on other non-supported platforms. **Disclaimer** -> The purpose of these are for community support and, although not officially supported, the ones we that are published have been tested working.
 
 ## 🛡️ Security
 

@@ -1,4 +1,10 @@
-# GUARDDOG AI Code of Conduct
+<p align="center">
+    <img src="https://guarddog.ai/wp-content/uploads/2024/03/purple-logo.png" alt="gdai_logo" width="300"/>
+</p>
+
+<h1 align="center">GUARDDOG AI Code of Conduct</h1>
+
+
 
 Welcome to the GUARDDOG AI Community! We are committed to fostering an open, welcoming, and inclusive environment. This Code of Conduct outlines our expectations for participant behavior and the consequences of unacceptable actions.
 

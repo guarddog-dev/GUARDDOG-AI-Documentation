@@ -1,4 +1,11 @@
-## **Requirements**
+<p align="center">
+    <img src="https://guarddog.ai/wp-content/uploads/2024/03/purple-logo.png" alt="gdai_logo" width="300"/>
+</p>
+
+<h1 align="center">Requirements</h1>
+
+
+
 1. **Container Compute Requirements:** Minimum -> 4CPU/4GB/40GB; Recommended -> 4CPU/8GB/64GB.
 2. **Architecture** x86/x64
 3. **Port Mirroring** This is a key configuration needed to allow the container to have the required visibility to provide the assessments and protection desired. Port mirroring needs to be enabled both ways (ingress **and** egress).
