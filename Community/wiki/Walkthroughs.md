@@ -5,4 +5,4 @@
 <h1 align="center">Walkthroughs</h1>
 
 
-## **[Ubuntu](walkthroughs/Ubuntu.md)**
+## **[Ubuntu](walkthroughs-Ubuntu.md)**
