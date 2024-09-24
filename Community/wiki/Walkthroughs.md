@@ -5,4 +5,4 @@
 <h1 align="center">Walkthroughs</h1>
 
 
-## **[Ubuntu](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/wiki/walkthroughs/Ubuntu.md)**
+## **[Ubuntu](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/Community/wiki/walkthroughs/Ubuntu.md)**
