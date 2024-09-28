@@ -4,4 +4,4 @@
 
 <h1 align="center">Ubuntu</h1>
 
-<h2 align="center">Installation and configuration of the DCX Edge Sensor</h2>
+<h2 align="center">Installation, configuration, and deployment of the DCX Edge Sensor</h2>
