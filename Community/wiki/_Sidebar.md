@@ -7,4 +7,5 @@
 - [Installation](Installation)
 - [Walkthroughs](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/Community/wiki/Walkthroughs.md)
   - [Ubuntu](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/Community/wiki/walkthroughs/Ubuntu.md)
+  - [Virtual Box](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/Community/wiki/walkthroughs/VirtualBox.md)
 - [FAQs](FAQs)
