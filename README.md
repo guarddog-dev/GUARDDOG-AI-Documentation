@@ -27,10 +27,7 @@ Refer to the wiki [here](https://github.com/guarddog-dev/GUARDDOG-AI-Documentati
 
 
 ## **Supported Operating Systems**
-- RedHat Enterprise Linux 8.8
-- RedHat Enterprise Linux 8.9
-- RedHat Enterprise Linux 9.2
-- RedHat Enterprise Linux 9.3
+- RedHat Enterprise Linux 9.x
 
 ## **Requirements**
 1. **Container Compute Requirements:** Minimum -> 4CPU/4GB/40GB; Recommended -> 4CPU/8GB/64GB.
