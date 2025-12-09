@@ -74,7 +74,7 @@ Refer to the wiki [here](https://github.com/guarddog-dev/GUARDDOG-AI-Documentati
 
 6. Once the license has been received, you can now proceed to deploy the container using 2 methods. You can either follow the steps on the deployment guide pdf file, or run through the steps below
    1. Run this one-liner to get the local install script:
-   2. ```bash <(curl -fsSL https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/Deployment%20scripts/gdai_install.sh)```
+   2. ```curl -fsSL https://raw.githubusercontent.com/guarddog-dev/GUARDDOG-AI-Documentation/main/install_guarddog.sh | sudo bash```
    3. then run it as sudo
    4. once the latest version of the gdai_deploy script has been downloaded it will prompt for several paramaters. These are the required ones, everything else is optional
       1. <DEVICE_NAME>, indicates a friendly name for the container. 
