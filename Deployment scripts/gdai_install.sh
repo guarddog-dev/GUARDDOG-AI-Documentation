@@ -1,3 +1,4 @@
+# Fixed version of install script
 #!/bin/bash
 
 #############################################
@@ -8,11 +9,17 @@
 
 set -e
 
+# Check if running as root
+if [ "$EUID" -ne 0 ]; then
+    echo "ERROR: This script must be run as root (use sudo)"
+    exit 1
+fi
+
 # Configuration
 GITHUB_REPO_URL="https://raw.githubusercontent.com/guarddog-dev/GUARDDOG-AI-Documentation/main/Deployment%20scripts/gdai_deploy.sh"
 SCRIPT_NAME="gdai_deploy.sh"
 DOWNLOAD_DIR="/tmp/guarddog"
-LOG_FILE="/tmp/guarddog_install.log"
+LOG_FILE="/var/log/guarddog_install.log"
 
 # Colors for output
 RED='\033[0;31m'
@@ -98,41 +105,48 @@ download_script() {
     # Create download directory
     mkdir -p "$DOWNLOAD_DIR"
     
-    local download_path="$DOWNLOAD_DIR/$SCRIPT_NAME"
+    SCRIPT_PATH="$DOWNLOAD_DIR/$SCRIPT_NAME"
     
     # Download the script
     if [ "$DOWNLOAD_TOOL" = "curl" ]; then
-        if curl -fsSL "$GITHUB_REPO_URL" -o "$download_path"; then
-            log "Successfully downloaded deployment script"
+        if curl -fsSL "$GITHUB_REPO_URL" -o "$SCRIPT_PATH" 2>&1 | tee -a "$LOG_FILE"; then
+            log "Successfully downloaded deployment script to $SCRIPT_PATH"
         else
             log_error "Failed to download script from GitHub"
-            cleanup
             exit 1
         fi
     else
-        if wget -q "$GITHUB_REPO_URL" -O "$download_path"; then
-            log "Successfully downloaded deployment script"
+        if wget -q "$GITHUB_REPO_URL" -O "$SCRIPT_PATH" 2>&1 | tee -a "$LOG_FILE"; then
+            log "Successfully downloaded deployment script to $SCRIPT_PATH"
         else
             log_error "Failed to download script from GitHub"
-            cleanup
             exit 1
         fi
     fi
     
-    # Make the script executable
-    chmod +x "$download_path"
+    # Verify the file exists
+    if [ ! -f "$SCRIPT_PATH" ]; then
+        log_error "Downloaded script not found at $SCRIPT_PATH"
+        exit 1
+    fi
     
-    echo "$download_path"
+    # Make the script executable
+    chmod +x "$SCRIPT_PATH"
+    log "Script is ready at: $SCRIPT_PATH"
 }
 
 run_deployment_script() {
-    local script_path="$1"
-    
-    log_step "Running GuardDog AI deployment script..."
+    log_step "Running GuardDog AI deployment script with sudo..."
     echo ""
     
-    # Execute the downloaded script
-    bash "$script_path"
+    # Verify script exists before running
+    if [ ! -f "$SCRIPT_PATH" ]; then
+        log_error "Script not found at $SCRIPT_PATH"
+        exit 1
+    fi
+    
+    # Execute the downloaded script with sudo (already running as root)
+    bash "$SCRIPT_PATH"
     
     local exit_code=$?
     
@@ -140,7 +154,6 @@ run_deployment_script() {
         log "Deployment completed successfully"
     else
         log_error "Deployment script exited with code $exit_code"
-        cleanup
         exit $exit_code
     fi
 }
@@ -159,12 +172,12 @@ main() {
     check_prerequisites
     
     # Download the latest script
-    script_path=$(download_script)
+    download_script
     
     # Run the deployment script
-    run_deployment_script "$script_path"
+    run_deployment_script
     
-    # Cleanup
+    # Cleanup after successful deployment
     cleanup
     
     echo ""
@@ -172,9 +185,6 @@ main() {
     log "Log file saved to: $LOG_FILE"
     echo ""
 }
-
-# Trap to ensure cleanup on exit
-trap cleanup EXIT
 
 # Run main function
 main "$@"
