@@ -46,7 +46,7 @@ Refer to the wiki [here](https://github.com/guarddog-dev/GUARDDOG-AI-Documentati
 1. **Requirements Guide** Refer to the [requirements_doc](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/GDAI%20Container%20Installation%20and%20Configuration%20Requirements.pdf) This document goes over the initial steps on how to use the platform.
 2. **Manual.** The [manual](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/Manual/DCX_Manual.md) is a more in-depth document explaining the multiple modules and settings of the dashboard.
 3. **Firewall Document** This [firewall_rules](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/GDAI%20Configuration%20for%20Firewall%20Rules.pdf) document shows the communication that needs to be allowed through in the firewall in order for the container to be fully operational.
-4. **RHEL Deployment Guide** This latest [deployment guide](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/GuardDog%20AI%20Container%20Deployment%20Guide%20-%20RHEL%20version.pdf) which shows the simple steps needed to deploy the container on a supported RHEL system.
+4. **RHEL Deployment Guide** This latest [deployment guide](https://github.com/guarddog-dev/GUARDDOG-AI-Documentation/blob/main/Red%20Hat%20Enterprise%20Linux%20Installation%20-%20Official%20RHEL%20certified%20and%20supported.pdf) which shows the simple steps needed to deploy the container on a supported RHEL system.
 
 ## **Requesting a License and Deployment Summary**
 1. Create an account at https://dcx.guarddog.ai
