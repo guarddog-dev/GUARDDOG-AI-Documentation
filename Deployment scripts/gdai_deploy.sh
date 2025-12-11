@@ -853,52 +853,46 @@ create_systemd_service() {
   fi
 
   local unit_file="/etc/systemd/system/container-${DEVICE_NAME}.service"
-  local gen_cmd=(podman generate systemd --new --name "$DEVICE_NAME")
 
   if [[ "$DRY_RUN" == "true" ]]; then
-    status "DRY_RUN=true; not creating systemd unit. Example command:"
-    printf '  %q ' "${gen_cmd[@]}"; echo " > $unit_file"
+    status "DRY_RUN=true; not creating systemd unit."
+    status "Would generate: $unit_file"
     return
   fi
 
-  if [[ -f "$unit_file" ]]; then
-    warn "Systemd unit ${unit_file} already exists."
-    if [[ "$NON_INTERACTIVE" == "false" ]]; then
-      read -rp "Overwrite existing systemd unit file? [y/N]: " ans
-      if [[ "$ans" =~ ^[Yy]$ ]]; then
-        if ! "${gen_cmd[@]}" > "$unit_file"; then
-          warn "Failed to regenerate ${unit_file}. Leaving existing unit in place. Container is still deployed."
-          return
-        fi
-      else
-        status "Keeping existing systemd unit."
-      fi
-    else
-      if ! "${gen_cmd[@]}" > "$unit_file"; then
-        warn "Failed to regenerate ${unit_file} (NON_INTERACTIVE). Container is still deployed."
-        return
-      fi
-    fi
-  else
-    if ! "${gen_cmd[@]}" > "$unit_file"; then
-      warn "Failed to generate systemd unit at ${unit_file}. Container is deployed but will not auto-start via systemd."
-      return
-    fi
+  # Generate the systemd unit file
+  status "Generating systemd unit: $unit_file"
+  if ! podman generate systemd --new --name "$DEVICE_NAME" > "$unit_file" 2>&1; then
+    warn "Failed to generate systemd unit at ${unit_file}. Container is deployed but will not auto-start via systemd."
+    return
   fi
 
+  # Reload systemd to recognize the new unit
+  status "Reloading systemd daemon..."
   if ! systemctl daemon-reload; then
     warn "systemctl daemon-reload failed; systemd may not see the new unit. Container remains deployed and running."
     return
   fi
 
+  # Enable the service for boot persistence
+  status "Enabling service for automatic start on boot..."
   if ! systemctl enable "container-${DEVICE_NAME}.service"; then
     warn "Failed to enable container-${DEVICE_NAME}.service. It may not start automatically on reboot."
   fi
-  if ! systemctl restart "container-${DEVICE_NAME}.service"; then
+
+  # Start the service now
+  status "Starting systemd service..."
+  if ! systemctl start "container-${DEVICE_NAME}.service"; then
     warn "Failed to start container-${DEVICE_NAME}.service via systemd. Check 'journalctl -u container-${DEVICE_NAME}.service'."
   else
     status "Systemd service container-${DEVICE_NAME}.service enabled and started."
   fi
+
+  echo
+  echo "Service management commands:"
+  echo "  systemctl status container-${DEVICE_NAME}.service"
+  echo "  systemctl restart container-${DEVICE_NAME}.service"
+  echo "  journalctl -u container-${DEVICE_NAME}.service -f"
 }
 
 show_summary() {
