@@ -77,9 +77,9 @@ Refer to the wiki [here](https://github.com/guarddog-dev/GUARDDOG-AI-Documentati
    2. ```curl -fsSL https://raw.githubusercontent.com/guarddog-dev/GUARDDOG-AI-Documentation/main/Deployment%20scripts/gdai_install.sh | sudo bash```
    3. then run it as sudo
    4. once the latest version of the gdai_deploy script has been downloaded it will prompt for several paramaters. These are the required ones, everything else is optional
-      1. <DEVICE_NAME>, indicates a friendly name for the container. 
-      2. <EMAIL>, this is the email address used to create the account at https://dcx.guarddog.ai.
-      3. <LICENSE>, this is the license key that will be provided by GUARDDOG AI for each container to be deployed. 
+      1. DEVICE_NAME, indicates a friendly name for the container. 
+      2. EMAIL, this is the email address used to create the account at https://dcx.guarddog.ai.
+      3. LICENSE, this is the license key that will be provided by GUARDDOG AI for each container to be deployed. 
 
 7. Once the container is running, and given all the requirements have been met, please allow for 1h - 2h for the container to fully update. 
 
