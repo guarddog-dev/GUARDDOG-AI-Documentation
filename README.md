@@ -30,7 +30,7 @@ Refer to the wiki [here](https://github.com/guarddog-dev/GUARDDOG-AI-Documentati
 - RedHat Enterprise Linux 9.x
 
 ## **Requirements**
-1. **Container Compute Requirements:** Minimum -> 4CPU/4GB/40GB; Recommended -> 4CPU/8GB/64GB.
+1. **Container Compute Requirements:** Minimum -> 4CPU/8GB/64GB; Recommended -> 6CPU/16GB/256GB.
 2. **Architecture** x86/x64
 3. **Port Mirroring** This is a key configuration needed to allow the container to have the required visibility to provide the assessments and protection desired. Port mirroring needs to be enabled both ways (ingress **and** egress).
 4. **Network configuration** The container needs to be deployed on a network that is configured to allow traffic to and from the container, and out to the internet.
