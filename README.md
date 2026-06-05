@@ -27,7 +27,8 @@ Refer to the wiki [here](https://github.com/guarddog-dev/GUARDDOG-AI-Documentati
 
 
 ## **Supported Operating Systems**
-- RedHat Enterprise Linux 9.x
+- Red Hat Enterprise Linux 9
+- Red Hat Enterprise Linux 10
 
 ## **Requirements**
 1. **Container Compute Requirements:** Minimum -> 6 Cores/8GB/64GB; Recommended -> 8 Cores/16GB/256GB.
